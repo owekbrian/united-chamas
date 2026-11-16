@@ -138,7 +138,7 @@ window.CHAMA_SUPABASE_URL='https://goebtbxvnudgsrhgcouc.supabase.co';
 window.CHAMA_SUPABASE_ANON_KEY='sb_publishable__l1N3kKBRsEl77Koqxaypg_MLHtiuSp';
 </script>
 <script>
-const data=window.chamaData,authShell=document.querySelector('#authShell'),authFields=document.querySelector('#authFields'),authForm=document.querySelector('#authForm'),authSubmit=document.querySelector('#authSubmit'),authSetupNotice=document.querySelector('#authSetupNotice'),resendConfirmation=document.querySelector('#resendConfirmation'),forgotPassword=document.querySelector('#forgotPassword'),adminResetPanel=document.querySelector('#adminResetPanel'),adminResetForm=document.querySelector('#adminResetForm'),adminResetMember=document.querySelector('#adminResetMember');
+const authShell=document.querySelector('#authShell'),authFields=document.querySelector('#authFields'),authForm=document.querySelector('#authForm'),authSubmit=document.querySelector('#authSubmit'),authSetupNotice=document.querySelector('#authSetupNotice'),resendConfirmation=document.querySelector('#resendConfirmation'),forgotPassword=document.querySelector('#forgotPassword'),adminResetPanel=document.querySelector('#adminResetPanel'),adminResetForm=document.querySelector('#adminResetForm'),adminResetMember=document.querySelector('#adminResetMember');
 let supabaseClient=null,authMode='login';
 function authMessage(message,isError=false){authSetupNotice.textContent=message;authSetupNotice.style.color=isError?'#a84e41':'#8a5420'}
 function showResend(visible){resendConfirmation.style.display=visible?'inline-flex':'none'}
